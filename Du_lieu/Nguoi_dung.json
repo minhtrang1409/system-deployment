@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Ho_ten": "Tô thị bé Bé",
   "Ma_so": "NV_2",
@@ -7,4 +8,15 @@
     "Ten": "Nhân viên Bán hàng",
     "Ma_so": "NHAN_VIEN_BAN_HANG"
   }
+=======
+{
+  "Ho_ten": "Tô thị bé Bé",
+  "Ma_so": "NV_2",
+  "Ten_Dang_nhap": "NVBH",
+  "Mat_khau": "NVBH",
+  "Nhom_Nguoi_dung": {
+    "Ten": "Nhân viên Bán hàng",
+    "Ma_so": "NHAN_VIEN_BAN_HANG"
+  }
+>>>>>>> 8c5155a... First commit
 }
