@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var http = require("http");
 var fs = require("fs");
 var port = normalizePort(process.env.PORT || 8080);
