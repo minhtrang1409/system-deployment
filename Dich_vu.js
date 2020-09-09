@@ -75,7 +75,7 @@ function normalizePort(val) {
 }
 
 var Dich_vu = http.createServer((req, res) => {
-    let kq = `Wellcome Server Nodejs - Method:${req.method} - url:${req.url}`
+    let kq = `Welcome Server Nodejs - Method:${req.method} - url:${req.url}`
     if (req.method == "GET") {
         if (req.url == "/Danh_sach_Tivi") {
             kq = fs.readFileSync('./Du_lieu/Danh_sach_Tivi.json', 'utf-8');
