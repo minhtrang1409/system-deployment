@@ -1,0 +1,79 @@
+{
+    "symptom": [
+        {
+            "name": "Fever"
+        },
+        {
+            "name": "Diarrhea"
+        },
+        {
+            "name": "Fatigue"
+        },
+        {
+            "name": "Coughing"
+        },
+        {
+            "name": "Muscle aches"
+        },
+        {
+            "name": "Sneezing"
+        },
+        {
+            "name": "Nausea or vomiting"
+        },
+        {
+            "name": "Runny or blocked nose"
+        },
+        {
+            "name": "Headache"
+        },
+        {
+            "name": "Muscle pain"
+        },
+        {
+            "name": "Sore throat"
+        },
+        {
+            "name": "Bodyrash"
+        },
+        {
+            "name": "Tiredness"
+        },
+        {
+            "name": "Weight loss"
+        },
+        {
+            "name": "Loss of/Change in smell/taste"
+        },
+        {
+            "name": "Blurred vision"
+        },
+        {
+            "name": "Very thirsty"
+        },
+        {
+            "name": "Cuts/Wounds heal slowly"
+        },
+        {
+            "name": "Urinating more frequently, particularly at night"
+        },
+        {
+            "name": "Problems with speech and language"
+        },
+        {
+            "name": "Confusion, getting lost in familiar places"
+        },
+        {
+            "name": "Memory problems"
+        },
+        {
+            "name": "Insomnia (problems sleeping)"
+        },
+        {
+            "name": "Depression and anixiety"
+        },
+        {
+            "name": "Balance problems"
+        }
+    ]
+}

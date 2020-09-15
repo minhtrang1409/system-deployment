@@ -1,0 +1,24 @@
+{
+    "Allergies": [
+        {
+            "symptoms": "10",
+            "Don_gia": "65000",
+            "So_Khach_Toi_da": "15",
+            "Ten": "VIP 10",
+            "ID_LOAI_PHONG": "2",
+            "Trang_thai": "CON_TRONG",
+            "Ma_so": "VIP_10"
+        }
+    ],
+    "VIP_01": [
+        {
+            "ID": "1",
+            "Don_gia": "85000",
+            "So_Khach_Toi_da": "20",
+            "Ten": "VIP 01",
+            "ID_LOAI_PHONG": "1",
+            "Trang_thai": "CO_KHACH",
+            "Ma_so": "VIP_01"
+        }
+    ]
+}
