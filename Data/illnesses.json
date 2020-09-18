@@ -6,7 +6,7 @@
         },
         {
             "name": "COVID-19",
-            "symptoms": "Ferver; Coughing; Loss of/Change in smell/taste"
+            "symptoms": "Fever; Coughing; Loss of/Change in smell/taste"
         },
         {
             "name": "Diabetes",
@@ -14,11 +14,11 @@
         },
         {
             "name": "Ebola",
-            "symptoms": "Ferver; Headache; Muscle pain; Sore throat; Muscle weakness; Vomiting; Diarrhoea; Stomachache"
+            "symptoms": "Fever; Headache; Muscle pain; Sore throat; Muscle weakness; Vomiting; Diarrhoea; Stomachache"
         },
         {
             "name": "Food poisoning",
-            "symptoms": "Nausea; Vomiting; Diarrhoea; Ferver; Stomachache; Loss of appetite; Muscle pain"
+            "symptoms": "Nausea; Vomiting; Diarrhoea; Fever; Stomachache; Loss of appetite; Muscle pain"
         },
         {
             "name": "Gout",
@@ -26,7 +26,7 @@
         },
         {
             "name": "HIV",
-            "symptoms": "Ferver; Sore throat; Body rash; Tiredness; Joint pain; Muscle pain; Swollen glands (nodes); Weight loss; Diarrhoea; recurrent infections"
+            "symptoms": "Fever; Sore throat; Body rash; Tiredness; Joint pain; Muscle pain; Swollen glands (nodes); Weight loss; Diarrhoea; recurrent infections"
         },
         {
             "name": "Alzheimer",
@@ -38,7 +38,7 @@
         },
         {
             "name": "Appendicitis",
-            "symptoms": "Pain at your lower right-hand side; Nausea; Loss of appetite; Diarrhoea; Ferver"
+            "symptoms": "Pain at your lower right-hand side; Nausea; Loss of appetite; Diarrhoea; Fever"
         },
         {
             "name": "High blood pressure",
