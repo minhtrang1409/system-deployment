@@ -1,24 +1,60 @@
 {
-    "Allergies": [
+    "illness": [
         {
-            "symptoms": "10",
-            "Don_gia": "65000",
-            "So_Khach_Toi_da": "15",
-            "Ten": "VIP 10",
-            "ID_LOAI_PHONG": "2",
-            "Trang_thai": "CON_TRONG",
-            "Ma_so": "VIP_10"
-        }
-    ],
-    "VIP_01": [
+            "name": "Allergies",
+            "symptoms": "Sneezing; Runny or blocked nose; Red, itchy, watery eyes, Wheezing; Coughing"
+        },
         {
-            "ID": "1",
-            "Don_gia": "85000",
-            "So_Khach_Toi_da": "20",
-            "Ten": "VIP 01",
-            "ID_LOAI_PHONG": "1",
-            "Trang_thai": "CO_KHACH",
-            "Ma_so": "VIP_01"
+            "name": "COVID-19",
+            "symptoms": "Ferver; Coughing; Loss of/Change in smell/taste"
+        },
+        {
+            "name": "Diabetes",
+            "symptoms": "Very thirsty; Urinating more frequently, particularly at night; Tiredness; Weight loss; Blurred vision; Cuts/Wounds heal slowly; Itching around the penis or vagina"
+        },
+        {
+            "name": "Ebola",
+            "symptoms": "Ferver; Headache; Muscle pain; Sore throat; Muscle weakness; Vomiting; Diarrhoea; Stomachache"
+        },
+        {
+            "name": "Food poisoning",
+            "symptoms": "Nausea; Vomiting; Diarrhoea; Ferver; Stomachache; Loss of appetite; Muscle pain"
+        },
+        {
+            "name": "Gout",
+            "symptoms": "Joints pain; Joint feeling hot and tender; Swelling in and around the affected joint; Red, shiny skin over the affected joint"
+        },
+        {
+            "name": "HIV",
+            "symptoms": "Ferver; Sore throat; Body rash; Tiredness; Joint pain; Muscle pain; Swollen glands (nodes); Weight loss; Diarrhoea; recurrent infections"
+        },
+        {
+            "name": "Alzheimer",
+            "symptoms": "Problems with speech or language; Confusion, getting lost in familiar places; Memory problems; Insomnia (problems sleeping)"
+        },
+        {
+            "name": "Parkinson",
+            "symptoms": "Hand/arm shaking; Slowness of movement; Muscle stiffness; Balance problems; Insomnia (problems sleeping); "
+        },
+        {
+            "name": "Appendicitis",
+            "symptoms": "Pain at your lower right-hand side; Nausea; Loss of appetite; Diarrhoea; Ferver"
+        },
+        {
+            "name": "High blood pressure",
+            "symptoms": "Headache; Nosebleed; Chest pain; Blurred vision; Insomnia (problems sleeping); Difficulty breathing; Irregular heartbeat"
+        },
+        {
+            "name": "Hepatitis A",
+            "symptoms": "Tiredness; Fever; Muscle pain; Joint pain; Loss of appetite; Nausea; Itchy skin; Yellowing of the skin and eyes"
+        },
+        {
+            "name": "Hepatitis B",
+            "symptoms": "Tiredness; Fever, Muscle pain; Joint pain; Loss of appetite; Nausea; Diarrhoea; Yellowing of the skin and eyes; Stomachache"
+        },
+        {
+            "name": "Hepatitis C",
+            "symptoms": "Tiredness; Fever, Muscle pain; Joint pain; Loss of appetite; Nausea; Stomachache"
         }
     ]
 }

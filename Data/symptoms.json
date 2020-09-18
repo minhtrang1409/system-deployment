@@ -4,7 +4,7 @@
             "name": "Fever"
         },
         {
-            "name": "Diarrhea"
+            "name": "Diarrhoea"
         },
         {
             "name": "Fatigue"
@@ -13,13 +13,13 @@
             "name": "Coughing"
         },
         {
-            "name": "Muscle aches"
-        },
-        {
             "name": "Sneezing"
         },
         {
-            "name": "Nausea or vomiting"
+            "name": "Nausea"
+        },
+        {
+            "name": "Vomiting"
         },
         {
             "name": "Runny or blocked nose"
@@ -34,7 +34,7 @@
             "name": "Sore throat"
         },
         {
-            "name": "Bodyrash"
+            "name": "Body rash"
         },
         {
             "name": "Tiredness"
@@ -58,7 +58,7 @@
             "name": "Urinating more frequently, particularly at night"
         },
         {
-            "name": "Problems with speech and language"
+            "name": "Problems with speech or language"
         },
         {
             "name": "Confusion, getting lost in familiar places"
@@ -70,10 +70,67 @@
             "name": "Insomnia (problems sleeping)"
         },
         {
-            "name": "Depression and anixiety"
+            "name": "Balance problems"
         },
         {
-            "name": "Balance problems"
+            "name": "Itching around the penis or vagina"
+        },
+        {
+            "name": "Muscle weakness"
+        },
+        {
+            "name": "Stomachache"
+        },
+        {
+            "name": "Loss of appetite"
+        },
+        {
+            "name": "Joint pain"
+        },
+        {
+            "name": "Joint feeling hot and tender"
+        },
+        {
+            "name": "Swelling in and around the affected joint"
+        },
+        {
+            "name": "Red, shiny skin over the affected joint"
+        },
+        {
+            "name": "Swollen glands (nodes)"
+        },
+        {
+            "name": "Recurrent infections"
+        },
+        {
+            "name": "Hand/arm shaking"
+        },
+        {
+            "name": "Slowness of movement"
+        },
+        {
+            "name": "Muscle stiffness"
+        },
+        {
+            "name": "Pain at your lower right-hand side"
+        },
+        {
+            "name": "Nosebleed"
+        },
+        {
+            "name": "Chest pain"
+        },
+        {
+            "name": "Difficulty breathing"
+        },
+        {
+            "name": "Irregular heartbeat"
+        },
+        {
+            "name": "Itchy skin"
+        },
+        {
+            "name": "Yellowing of the skin and eyes"
         }
     ]
 }
