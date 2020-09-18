@@ -2,7 +2,7 @@
     "illness": [
         {
             "name": "Allergies",
-            "symptoms": "Sneezing; Runny or blocked nose; Red, itchy, watery eyes, Wheezing; Coughing"
+            "symptoms": "Sneezing; Runny or blocked nose; Red, itchy, watery eyes; Wheezing; Coughing"
         },
         {
             "name": "COVID-19",
@@ -50,11 +50,11 @@
         },
         {
             "name": "Hepatitis B",
-            "symptoms": "Tiredness; Fever, Muscle pain; Joint pain; Loss of appetite; Nausea; Diarrhoea; Yellowing of the skin and eyes; Stomachache"
+            "symptoms": "Tiredness; Fever; Muscle pain; Joint pain; Loss of appetite; Nausea; Diarrhoea; Yellowing of the skin and eyes; Stomachache"
         },
         {
             "name": "Hepatitis C",
-            "symptoms": "Tiredness; Fever, Muscle pain; Joint pain; Loss of appetite; Nausea; Stomachache"
+            "symptoms": "Tiredness; Fever; Muscle pain; Joint pain; Loss of appetite; Nausea; Stomachache"
         }
     ]
 }
