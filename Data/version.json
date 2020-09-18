@@ -1,0 +1,12 @@
+{
+    "version": [
+        {
+            "name": "Symptom",
+            "version_number": "1.0.0"
+        },
+        {
+            "name": "Illness",
+            "version_number": "1.0.0"
+        }
+    ]
+}

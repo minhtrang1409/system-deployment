@@ -85,6 +85,10 @@ var Dich_vu = http.createServer((req, res) => {
             kq = fs.readFileSync('./Data/illnesses.json', 'utf-8');
             res.writeHead(200, { "Content-Type": "text/json; charset=utf-8" })
             res.end(kq)
+        } else if (req.url == "/version") {
+            kq = fs.readFileSync('./Data/version.json', 'utf-8');
+            res.writeHead(200, { "Content-Type": "text/json; charset=utf-8" })
+            res.end(kq)
         } else {
             res.end(kq);
         }
