@@ -4,7 +4,6 @@ var con = mysql.createConnection({
   host: "sql304.epizy.com",
   user: "epiz_26775714",
   password: "JTBzmEk8txs",
-  database: "medicalproject"
 });
 
 module.exports.VerifyEmail = function (email, callback) { 
