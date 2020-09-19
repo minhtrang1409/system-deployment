@@ -1,6 +1,7 @@
 var http = require("http");
 var fs = require("fs");
 var port = normalizePort(process.env.PORT || 8080);
+var db = require("./Data/verifyEmail");
 
 function normalizePort(val) {
     var port = parseInt(val, 10);
@@ -91,6 +92,28 @@ var Dich_vu = http.createServer((req, res) => {
             res.end(kq)
         } else {
             res.end(kq);
+        }
+    } else if (req.method == "POST") {
+        var Noi_dung_Nhan = '';
+        req.on('data', function (data) {
+            Noi_dung_Nhan += data;
+        });
+        if(req.url == "/VerifyEmail"){
+            req.on('end', function(){
+                let Doi_tuong = JSON.parse(Noi_dung_Nhan);
+                db.VerifyEmail(Doi_tuong.email, function(result) {
+                    let Ket_qua = {"Verified": 'fail'}; 
+                    if (result == 1) {
+                        res.writeHead(200, {"Content-Type": "text/json; charset=utf-8"});
+                        Ket_qua.Verified = 'success';
+                        res.end(JSON.stringify(Ket_qua));
+                    }
+                    else {
+                        res.writeHead(200, {"Content-Type": "text/json; charset=utf-8"});
+                        res.end(JSON.stringify(Ket_qua));
+                    }
+                })
+            }); 
         }
     }
 })
