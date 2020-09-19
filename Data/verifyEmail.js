@@ -8,7 +8,7 @@ var con = mysql.createConnection({
 });
 
 module.exports.VerifyEmail = function (email, callback) { 
-    var sql = "UPDATE users SET verified = 'yes' WHERE email = '" + email +"'"
+    var sql = "UPDATE users SET verified = '1' WHERE email = '" + email +"'"
     con.query(sql, function (err, result) {
         if (err) throw err;
         console.log(result.affectedRows + " record(s) updated");

@@ -102,7 +102,7 @@ var Dich_vu = http.createServer((req, res) => {
             req.on('end', function(){
                 let Doi_tuong = JSON.parse(Noi_dung_Nhan);
                 db.VerifyEmail(Doi_tuong.email, function(result) {
-                    let Ket_qua = {"Verified": 'fail'}; 
+                    let Ket_qua = {"verified": 'fail'}; 
                     if (result == 1) {
                         res.writeHead(200, {"Content-Type": "text/json; charset=utf-8"});
                         Ket_qua.Verified = 'success';
