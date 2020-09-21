@@ -18,16 +18,27 @@ module.exports.VerifyEmail = function (email, callback) {
     });
 };
 
+module.exports.Destroy = function () {
+    con.end(function(err) {
+        if (err) {
+        return console.log('error:' + err.message);
+        }
+        console.log('Close the database connection.');
+    });
+};
+
 // module.exports.Connect = function (callback) {
     
 // }
 
-con.connect(function(err) {
-    // callback(err)
-    if (err) {
-        console.error('error connecting: ', err);
-        return;
-        // throw err;
-    }
-    console.log("Connected!");
-});
+module.exports.Create = function () {
+    con.connect(function(err) {
+        // callback(err)
+        if (err) {
+            console.error('error connecting: ', err);
+            return;
+            // throw err;
+        }
+        console.log("Connected!");
+    });
+};
