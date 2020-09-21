@@ -105,7 +105,7 @@ var Dich_vu = http.createServer((req, res) => {
                     let Ket_qua = {"verified": 'fail'}; 
                     if (result == 1) {
                         res.writeHead(200, {"Content-Type": "text/json; charset=utf-8"});
-                        Ket_qua.Verified = 'success';
+                        Ket_qua.verified = 'success';
                         res.end(JSON.stringify(Ket_qua));
                     }
                     else {
