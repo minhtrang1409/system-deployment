@@ -1,11 +1,13 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "sql304.epizy.com",
-  user: "epiz_26775714",
-  password: "JTBzmEk8txs",
-  database: "epiz_26775714_medicalproject"
+  host: "remotemysql.com",
+  user: "Jf3pXUPtNg",
+  password: "h42cg6PZ9f",
+  //port: "3306",
+  database: "Jf3pXUPtNg"
 });
+
 
 module.exports.VerifyEmail = function (email, callback) { 
     var sql = "UPDATE users SET verified = '1' WHERE email = '" + email +"'"
@@ -16,8 +18,16 @@ module.exports.VerifyEmail = function (email, callback) {
     });
 };
 
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-});
+// module.exports.Connect = function (callback) {
+    
+// }
 
+con.connect(function(err) {
+    // callback(err)
+    if (err) {
+        console.error('error connecting: ', err);
+        return;
+        // throw err;
+    }
+    console.log("Connected!");
+});
